@@ -8,14 +8,13 @@ fun main() {
     val num5 = 3.2
     val avg = calculateAverage(num1, num2, num3, num4, num5)
     println("The average of $num1, $num2, $num3, $num4, and $num5 is $avg")
-//    val personRecord = createPersonRecord("Mercy Fait", 23,  "+256789456372" , "mercy@gmail.com",50.4, isUgandanCitizen = true)
-//    println(personRecord)
+
     val fullName = "Mercy Faith"
     val age = 30
     val phoneNumber = "+256 123 456 7890"
     val email = "mercy@gmail.com"
     val weight = 70.5
-    val isUgandanCitizen = false
+    val isUgandanCitizen = true
 
     val personRecord = createPersonRecord(fullName, age, phoneNumber, email, weight, isUgandanCitizen)
     println("Full name: ${personRecord["fullName"]}")
@@ -27,7 +26,7 @@ fun main() {
 }
 
 
-}
+
 //1. Create and invoke a function that takes in a users name, age, and nationality and prints out “Hello my name is ${name}, I am ${age} and I am from ${nationality}” e.g
 //given “Lucy”, 23, and,“Kenya” it will print out “Hello my name is Lucy, I am 23 years old and I am from Kenya”
 
